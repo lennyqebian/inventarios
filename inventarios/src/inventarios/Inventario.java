@@ -8,7 +8,7 @@ package inventarios;
 
 /**
  *
- * @author JorgeEnrique
+ * @author Lenny Qebian
  */
 public class Inventario {
     
