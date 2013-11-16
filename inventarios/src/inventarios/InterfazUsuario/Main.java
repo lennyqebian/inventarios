@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package inventarios;
+package inventarios.InterfazUsuario;
 
 /**
  *
@@ -47,9 +47,8 @@ public class Main extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jInternalFrame1.setClosable(true);
-        jInternalFrame1.setIconifiable(true);
-        jInternalFrame1.setMaximizable(true);
+        desktopPane.setBackground(new java.awt.Color(204, 204, 204));
+
         jInternalFrame1.setVisible(true);
 
         javax.swing.GroupLayout jInternalFrame1Layout = new javax.swing.GroupLayout(jInternalFrame1.getContentPane());
@@ -63,7 +62,7 @@ public class Main extends javax.swing.JFrame {
             .addGap(0, 231, Short.MAX_VALUE)
         );
 
-        jInternalFrame1.setBounds(30, 0, 340, 260);
+        jInternalFrame1.setBounds(30, 10, 340, 260);
         desktopPane.add(jInternalFrame1, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         fileMenu.setMnemonic('f');
